@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B053E8CDDBBAA418EF50D53B /* Pods_RHDiscover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A0DEDE93799FEAAA525212 /* Pods_RHDiscover.framework */; };
+		E74DDD9E208ED607006A8F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDD9D208ED607006A8F1A /* AppDelegate.m */; };
+		E74DDDA6208ED607006A8F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74DDDA5208ED607006A8F1A /* Assets.xcassets */; };
+		E74DDDA9208ED607006A8F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74DDDA7208ED607006A8F1A /* LaunchScreen.storyboard */; };
+		E74DDDAC208ED607006A8F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDAB208ED607006A8F1A /* main.m */; };
+		E74DDDB6208ED608006A8F1A /* RHDiscoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDB5208ED608006A8F1A /* RHDiscoverTests.m */; };
+		E74DDDC1208ED608006A8F1A /* RHDiscoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDC0208ED608006A8F1A /* RHDiscoverUITests.m */; };
+		E74DDDD4208EDC43006A8F1A /* RHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDD3208EDC43006A8F1A /* RHBaseViewController.m */; };
+		E74DDDD7208EDC64006A8F1A /* RHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDD6208EDC64006A8F1A /* RHBaseNavigationController.m */; };
+		E74DDDDC208EDD50006A8F1A /* RHTourLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDDA208EDD50006A8F1A /* RHTourLaunchViewController.m */; };
+		E74DDDDD208EDD50006A8F1A /* RHTourLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74DDDDB208EDD50006A8F1A /* RHTourLaunchViewController.xib */; };
+		E74DDDE0208EDFB6006A8F1A /* RHPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDDF208EDFB6006A8F1A /* RHPlayerView.m */; };
+		E74DDDE3208F098C006A8F1A /* RHThirdPartyLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDE2208F098C006A8F1A /* RHThirdPartyLoginView.m */; };
+		E74DDDE7208F0AC8006A8F1A /* UIView+RHHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDE6208F0AC8006A8F1A /* UIView+RHHelp.m */; };
+		E74DDDEE208F1CC6006A8F1A /* RHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDED208F1CC6006A8F1A /* RHRouter.m */; };
+		E74DDDF0208F29D3006A8F1A /* LaunchTour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E74DDDEF208F29D2006A8F1A /* LaunchTour.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74DDDB2208ED608006A8F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74DDD91208ED607006A8F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74DDD98208ED607006A8F1A;
+			remoteInfo = RHDiscover;
+		};
+		E74DDDBD208ED608006A8F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74DDD91208ED607006A8F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74DDD98208ED607006A8F1A;
+			remoteInfo = RHDiscover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39DEEFC3258F41E77CD732C8 /* Pods-RHDiscover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHDiscover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RHDiscover/Pods-RHDiscover.debug.xcconfig"; sourceTree = "<group>"; };
+		589A152ADFD087D384C923E2 /* Pods-RHDiscover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHDiscover.release.xcconfig"; path = "Pods/Target Support Files/Pods-RHDiscover/Pods-RHDiscover.release.xcconfig"; sourceTree = "<group>"; };
+		81A0DEDE93799FEAAA525212 /* Pods_RHDiscover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RHDiscover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DDD99208ED607006A8F1A /* RHDiscover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHDiscover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DDD9C208ED607006A8F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E74DDD9D208ED607006A8F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E74DDDA5208ED607006A8F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74DDDA8208ED607006A8F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E74DDDAA208ED607006A8F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74DDDAB208ED607006A8F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E74DDDB1208ED608006A8F1A /* RHDiscoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHDiscoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DDDB5208ED608006A8F1A /* RHDiscoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHDiscoverTests.m; sourceTree = "<group>"; };
+		E74DDDB7208ED608006A8F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74DDDBC208ED608006A8F1A /* RHDiscoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHDiscoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DDDC0208ED608006A8F1A /* RHDiscoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHDiscoverUITests.m; sourceTree = "<group>"; };
+		E74DDDC2208ED608006A8F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74DDDD2208EDC43006A8F1A /* RHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHBaseViewController.h; sourceTree = "<group>"; };
+		E74DDDD3208EDC43006A8F1A /* RHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHBaseViewController.m; sourceTree = "<group>"; };
+		E74DDDD5208EDC64006A8F1A /* RHBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHBaseNavigationController.h; sourceTree = "<group>"; };
+		E74DDDD6208EDC64006A8F1A /* RHBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHBaseNavigationController.m; sourceTree = "<group>"; };
+		E74DDDD9208EDD50006A8F1A /* RHTourLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHTourLaunchViewController.h; sourceTree = "<group>"; };
+		E74DDDDA208EDD50006A8F1A /* RHTourLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHTourLaunchViewController.m; sourceTree = "<group>"; };
+		E74DDDDB208EDD50006A8F1A /* RHTourLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHTourLaunchViewController.xib; sourceTree = "<group>"; };
+		E74DDDDE208EDFB6006A8F1A /* RHPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHPlayerView.h; sourceTree = "<group>"; };
+		E74DDDDF208EDFB6006A8F1A /* RHPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHPlayerView.m; sourceTree = "<group>"; };
+		E74DDDE1208F098C006A8F1A /* RHThirdPartyLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHThirdPartyLoginView.h; sourceTree = "<group>"; };
+		E74DDDE2208F098C006A8F1A /* RHThirdPartyLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHThirdPartyLoginView.m; sourceTree = "<group>"; };
+		E74DDDE5208F0AC8006A8F1A /* UIView+RHHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RHHelp.h"; sourceTree = "<group>"; };
+		E74DDDE6208F0AC8006A8F1A /* UIView+RHHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RHHelp.m"; sourceTree = "<group>"; };
+		E74DDDEA208F141B006A8F1A /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		E74DDDEC208F1CC6006A8F1A /* RHRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHRouter.h; sourceTree = "<group>"; };
+		E74DDDED208F1CC6006A8F1A /* RHRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHRouter.m; sourceTree = "<group>"; };
+		E74DDDEF208F29D2006A8F1A /* LaunchTour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LaunchTour.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74DDD96208ED607006A8F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B053E8CDDBBAA418EF50D53B /* Pods_RHDiscover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDAE208ED608006A8F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDB9208ED608006A8F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E6FC7744F63FBFDCDEFB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39DEEFC3258F41E77CD732C8 /* Pods-RHDiscover.debug.xcconfig */,
+				589A152ADFD087D384C923E2 /* Pods-RHDiscover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96A693B3D61BC715763F7163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A0DEDE93799FEAAA525212 /* Pods_RHDiscover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74DDD90208ED607006A8F1A = {
+			isa = PBXGroup;
+			children = (
+				E74DDD9B208ED607006A8F1A /* RHDiscover */,
+				E74DDDB4208ED608006A8F1A /* RHDiscoverTests */,
+				E74DDDBF208ED608006A8F1A /* RHDiscoverUITests */,
+				E74DDD9A208ED607006A8F1A /* Products */,
+				91E6FC7744F63FBFDCDEFB7F /* Pods */,
+				96A693B3D61BC715763F7163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E74DDD9A208ED607006A8F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDD99208ED607006A8F1A /* RHDiscover.app */,
+				E74DDDB1208ED608006A8F1A /* RHDiscoverTests.xctest */,
+				E74DDDBC208ED608006A8F1A /* RHDiscoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74DDD9B208ED607006A8F1A /* RHDiscover */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDCE208EDBB7006A8F1A /* Classes */,
+				E74DDDF1208F2C2E006A8F1A /* Resource */,
+			);
+			path = RHDiscover;
+			sourceTree = "<group>";
+		};
+		E74DDDB4208ED608006A8F1A /* RHDiscoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDB5208ED608006A8F1A /* RHDiscoverTests.m */,
+				E74DDDB7208ED608006A8F1A /* Info.plist */,
+			);
+			path = RHDiscoverTests;
+			sourceTree = "<group>";
+		};
+		E74DDDBF208ED608006A8F1A /* RHDiscoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDC0208ED608006A8F1A /* RHDiscoverUITests.m */,
+				E74DDDC2208ED608006A8F1A /* Info.plist */,
+			);
+			path = RHDiscoverUITests;
+			sourceTree = "<group>";
+		};
+		E74DDDCE208EDBB7006A8F1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDD0208EDC20006A8F1A /* Comom */,
+				E74DDDCF208EDBD2006A8F1A /* Features */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E74DDDCF208EDBD2006A8F1A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDD8208EDC77006A8F1A /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E74DDDD0208EDC20006A8F1A /* Comom */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDEB208F1CAE006A8F1A /* Universal */,
+				E74DDDEA208F141B006A8F1A /* common.h */,
+				E74DDDE4208F0A5F006A8F1A /* Categories */,
+				E74DDDD1208EDC29006A8F1A /* Base */,
+			);
+			path = Comom;
+			sourceTree = "<group>";
+		};
+		E74DDDD1208EDC29006A8F1A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDD2208EDC43006A8F1A /* RHBaseViewController.h */,
+				E74DDDD3208EDC43006A8F1A /* RHBaseViewController.m */,
+				E74DDDD5208EDC64006A8F1A /* RHBaseNavigationController.h */,
+				E74DDDD6208EDC64006A8F1A /* RHBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E74DDDD8208EDC77006A8F1A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDEF208F29D2006A8F1A /* LaunchTour.mp4 */,
+				E74DDDD9208EDD50006A8F1A /* RHTourLaunchViewController.h */,
+				E74DDDDA208EDD50006A8F1A /* RHTourLaunchViewController.m */,
+				E74DDDDB208EDD50006A8F1A /* RHTourLaunchViewController.xib */,
+				E74DDDDE208EDFB6006A8F1A /* RHPlayerView.h */,
+				E74DDDDF208EDFB6006A8F1A /* RHPlayerView.m */,
+				E74DDDE1208F098C006A8F1A /* RHThirdPartyLoginView.h */,
+				E74DDDE2208F098C006A8F1A /* RHThirdPartyLoginView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E74DDDE4208F0A5F006A8F1A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDE5208F0AC8006A8F1A /* UIView+RHHelp.h */,
+				E74DDDE6208F0AC8006A8F1A /* UIView+RHHelp.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E74DDDEB208F1CAE006A8F1A /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDD9C208ED607006A8F1A /* AppDelegate.h */,
+				E74DDD9D208ED607006A8F1A /* AppDelegate.m */,
+				E74DDDEC208F1CC6006A8F1A /* RHRouter.h */,
+				E74DDDED208F1CC6006A8F1A /* RHRouter.m */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		E74DDDF1208F2C2E006A8F1A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E74DDDA5208ED607006A8F1A /* Assets.xcassets */,
+				E74DDDA7208ED607006A8F1A /* LaunchScreen.storyboard */,
+				E74DDDAA208ED607006A8F1A /* Info.plist */,
+				E74DDDAB208ED607006A8F1A /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74DDD98208ED607006A8F1A /* RHDiscover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DDDC5208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscover" */;
+			buildPhases = (
+				560481EE4C52196271B640A2 /* [CP] Check Pods Manifest.lock */,
+				E74DDD95208ED607006A8F1A /* Sources */,
+				E74DDD96208ED607006A8F1A /* Frameworks */,
+				E74DDD97208ED607006A8F1A /* Resources */,
+				35F2DD384DB4318ABD83CE90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHDiscover;
+			productName = RHDiscover;
+			productReference = E74DDD99208ED607006A8F1A /* RHDiscover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74DDDB0208ED608006A8F1A /* RHDiscoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DDDC8208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscoverTests" */;
+			buildPhases = (
+				E74DDDAD208ED608006A8F1A /* Sources */,
+				E74DDDAE208ED608006A8F1A /* Frameworks */,
+				E74DDDAF208ED608006A8F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74DDDB3208ED608006A8F1A /* PBXTargetDependency */,
+			);
+			name = RHDiscoverTests;
+			productName = RHDiscoverTests;
+			productReference = E74DDDB1208ED608006A8F1A /* RHDiscoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74DDDBB208ED608006A8F1A /* RHDiscoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DDDCB208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscoverUITests" */;
+			buildPhases = (
+				E74DDDB8208ED608006A8F1A /* Sources */,
+				E74DDDB9208ED608006A8F1A /* Frameworks */,
+				E74DDDBA208ED608006A8F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74DDDBE208ED608006A8F1A /* PBXTargetDependency */,
+			);
+			name = RHDiscoverUITests;
+			productName = RHDiscoverUITests;
+			productReference = E74DDDBC208ED608006A8F1A /* RHDiscoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74DDD91208ED607006A8F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DaFenQI;
+				TargetAttributes = {
+					E74DDD98208ED607006A8F1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					E74DDDB0208ED608006A8F1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E74DDD98208ED607006A8F1A;
+					};
+					E74DDDBB208ED608006A8F1A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E74DDD98208ED607006A8F1A;
+					};
+				};
+			};
+			buildConfigurationList = E74DDD94208ED607006A8F1A /* Build configuration list for PBXProject "RHDiscover" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74DDD90208ED607006A8F1A;
+			productRefGroup = E74DDD9A208ED607006A8F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74DDD98208ED607006A8F1A /* RHDiscover */,
+				E74DDDB0208ED608006A8F1A /* RHDiscoverTests */,
+				E74DDDBB208ED608006A8F1A /* RHDiscoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74DDD97208ED607006A8F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DDDA9208ED607006A8F1A /* LaunchScreen.storyboard in Resources */,
+				E74DDDDD208EDD50006A8F1A /* RHTourLaunchViewController.xib in Resources */,
+				E74DDDF0208F29D3006A8F1A /* LaunchTour.mp4 in Resources */,
+				E74DDDA6208ED607006A8F1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDAF208ED608006A8F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDBA208ED608006A8F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F2DD384DB4318ABD83CE90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RHDiscover/Pods-RHDiscover-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RHDiscover/Pods-RHDiscover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560481EE4C52196271B640A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RHDiscover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74DDD95208ED607006A8F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DDDD4208EDC43006A8F1A /* RHBaseViewController.m in Sources */,
+				E74DDDAC208ED607006A8F1A /* main.m in Sources */,
+				E74DDDE7208F0AC8006A8F1A /* UIView+RHHelp.m in Sources */,
+				E74DDDEE208F1CC6006A8F1A /* RHRouter.m in Sources */,
+				E74DDDE3208F098C006A8F1A /* RHThirdPartyLoginView.m in Sources */,
+				E74DDDE0208EDFB6006A8F1A /* RHPlayerView.m in Sources */,
+				E74DDDD7208EDC64006A8F1A /* RHBaseNavigationController.m in Sources */,
+				E74DDD9E208ED607006A8F1A /* AppDelegate.m in Sources */,
+				E74DDDDC208EDD50006A8F1A /* RHTourLaunchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDAD208ED608006A8F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DDDB6208ED608006A8F1A /* RHDiscoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DDDB8208ED608006A8F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DDDC1208ED608006A8F1A /* RHDiscoverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74DDDB3208ED608006A8F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74DDD98208ED607006A8F1A /* RHDiscover */;
+			targetProxy = E74DDDB2208ED608006A8F1A /* PBXContainerItemProxy */;
+		};
+		E74DDDBE208ED608006A8F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74DDD98208ED607006A8F1A /* RHDiscover */;
+			targetProxy = E74DDDBD208ED608006A8F1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74DDDA7208ED607006A8F1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74DDDA8208ED607006A8F1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74DDDC3208ED608006A8F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E74DDDC4208ED608006A8F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74DDDC6208ED608006A8F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DEEFC3258F41E77CD732C8 /* Pods-RHDiscover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U548S69Z84;
+				INFOPLIST_FILE = RHDiscover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74DDDC7208ED608006A8F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 589A152ADFD087D384C923E2 /* Pods-RHDiscover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U548S69Z84;
+				INFOPLIST_FILE = RHDiscover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74DDDC9208ED608006A8F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RHDiscoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHDiscover.app/RHDiscover";
+			};
+			name = Debug;
+		};
+		E74DDDCA208ED608006A8F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RHDiscoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHDiscover.app/RHDiscover";
+			};
+			name = Release;
+		};
+		E74DDDCC208ED608006A8F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RHDiscoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RHDiscover;
+			};
+			name = Debug;
+		};
+		E74DDDCD208ED608006A8F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RHDiscoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RHDiscover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74DDD94208ED607006A8F1A /* Build configuration list for PBXProject "RHDiscover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DDDC3208ED608006A8F1A /* Debug */,
+				E74DDDC4208ED608006A8F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DDDC5208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DDDC6208ED608006A8F1A /* Debug */,
+				E74DDDC7208ED608006A8F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DDDC8208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DDDC9208ED608006A8F1A /* Debug */,
+				E74DDDCA208ED608006A8F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DDDCB208ED608006A8F1A /* Build configuration list for PBXNativeTarget "RHDiscoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DDDCC208ED608006A8F1A /* Debug */,
+				E74DDDCD208ED608006A8F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74DDD91208ED607006A8F1A /* Project object */;
+}

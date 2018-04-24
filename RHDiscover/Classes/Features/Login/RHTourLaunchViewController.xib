@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RHTourLaunchViewController">
+            <connections>
+                <outlet property="loginButton" destination="Ip2-GJ-QD0" id="bq0-3y-JlX"/>
+                <outlet property="playerView" destination="eug-wV-qvZ" id="36o-P7-eHF"/>
+                <outlet property="registerButton" destination="Sew-3e-X7D" id="jBw-Ni-JFH"/>
+                <outlet property="thirdPartyLoginView" destination="kHT-Xi-inr" id="Lxg-dn-d4l"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_tour_cover_Normal" translatesAutoresizingMaskIntoConstraints="NO" id="3Em-nZ-tAo">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eug-wV-qvZ" customClass="RHPlayerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1a-QP-KIY">
+                    <rect key="frame" x="0.0" y="563" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ip2-GJ-QD0">
+                            <rect key="frame" x="15" y="0.0" width="157.5" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="kqN-Pm-7Qm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="登录">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="TfO-mQ-wFM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sew-3e-X7D">
+                            <rect key="frame" x="203" y="0.0" width="157.5" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="bE6-TD-PeX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="注册">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="registerAction:" destination="-1" eventType="touchUpInside" id="B9K-s9-rCH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Sew-3e-X7D" firstAttribute="width" secondItem="M1a-QP-KIY" secondAttribute="width" multiplier="0.5" constant="-30" id="Ga5-V3-zRR"/>
+                        <constraint firstAttribute="height" constant="44" id="Ixp-RZ-f4R"/>
+                        <constraint firstItem="Ip2-GJ-QD0" firstAttribute="leading" secondItem="M1a-QP-KIY" secondAttribute="leading" constant="15" id="Mo8-e0-jhD"/>
+                        <constraint firstItem="Ip2-GJ-QD0" firstAttribute="width" secondItem="M1a-QP-KIY" secondAttribute="width" multiplier="0.5" constant="-30" id="MqK-zt-ThE"/>
+                        <constraint firstItem="Sew-3e-X7D" firstAttribute="centerY" secondItem="M1a-QP-KIY" secondAttribute="centerY" id="gvH-5H-Myy"/>
+                        <constraint firstAttribute="trailing" secondItem="Sew-3e-X7D" secondAttribute="trailing" constant="15" id="pNP-6P-YpX"/>
+                        <constraint firstItem="Ip2-GJ-QD0" firstAttribute="centerY" secondItem="M1a-QP-KIY" secondAttribute="centerY" id="sgm-jW-XtC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHT-Xi-inr" customClass="RHThirdPartyLoginView">
+                    <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="OZg-Ud-tKL"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tour_logo_Normal" translatesAutoresizingMaskIntoConstraints="NO" id="90b-xQ-HfV">
+                    <rect key="frame" x="107" y="88" width="160" height="88"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="29o-A2-OjO"/>
+                        <constraint firstAttribute="height" constant="88" id="woB-xg-DNg"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kHT-Xi-inr" secondAttribute="trailing" id="2Yr-lU-drs"/>
+                <constraint firstAttribute="trailing" secondItem="eug-wV-qvZ" secondAttribute="trailing" id="7WT-93-k4m"/>
+                <constraint firstItem="eug-wV-qvZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B4i-jR-rgD"/>
+                <constraint firstItem="M1a-QP-KIY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ixa-Ps-H17"/>
+                <constraint firstItem="3Em-nZ-tAo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MBr-Tz-piV"/>
+                <constraint firstItem="eug-wV-qvZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P83-tl-xwg"/>
+                <constraint firstAttribute="trailing" secondItem="M1a-QP-KIY" secondAttribute="trailing" id="UPX-pC-tRO"/>
+                <constraint firstAttribute="bottom" secondItem="kHT-Xi-inr" secondAttribute="bottom" id="aZd-Et-V1o"/>
+                <constraint firstItem="kHT-Xi-inr" firstAttribute="top" secondItem="M1a-QP-KIY" secondAttribute="bottom" id="fIF-YC-VfP"/>
+                <constraint firstItem="90b-xQ-HfV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="l0m-p3-0ZR"/>
+                <constraint firstAttribute="trailing" secondItem="3Em-nZ-tAo" secondAttribute="trailing" id="okU-cm-gsF"/>
+                <constraint firstItem="90b-xQ-HfV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="qmm-xB-q0a"/>
+                <constraint firstAttribute="bottom" secondItem="3Em-nZ-tAo" secondAttribute="bottom" id="svc-rF-Ghk"/>
+                <constraint firstItem="kHT-Xi-inr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tu0-W9-2rF"/>
+                <constraint firstItem="3Em-nZ-tAo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wji-Wa-sGz"/>
+                <constraint firstAttribute="bottom" secondItem="eug-wV-qvZ" secondAttribute="bottom" id="wmy-Sc-h0C"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch_tour_cover_Normal" width="375" height="667"/>
+        <image name="tour_logo_Normal" width="160" height="88"/>
+    </resources>
+</document>
