@@ -10,6 +10,7 @@
 #import "RHPlayerView.h"
 #import "RHThirdPartyLoginView.h"
 #import "UIView+RHHelp.h"
+#import "RHRouter.h"
 
 #define kButtonCornerRadius 22
 
@@ -41,7 +42,7 @@
 }
 
 - (IBAction)loginAction:(id)sender {
-    
+    [RHRouter switchToMainTabBarViewController];
 }
 
 - (IBAction)registerAction:(id)sender {

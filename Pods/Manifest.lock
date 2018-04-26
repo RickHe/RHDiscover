@@ -1,16 +1,20 @@
 PODS:
   - Masonry (1.1.0)
+  - OpenShare (0.0.1)
 
 DEPENDENCIES:
   - Masonry
+  - OpenShare (~> 0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Masonry
+    - OpenShare
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenShare: a560580dbb729d5c0c3cc1ee84cd6aa4a07e94c6
 
-PODFILE CHECKSUM: 4749f86b0dde6acac32bf6b61e1e504808b76d24
+PODFILE CHECKSUM: 262aa1c8e6e19689ae216c497eca5b658536a729
 
 COCOAPODS: 1.5.0

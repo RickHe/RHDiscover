@@ -23,6 +23,29 @@
 		E74DDDE7208F0AC8006A8F1A /* UIView+RHHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDE6208F0AC8006A8F1A /* UIView+RHHelp.m */; };
 		E74DDDEE208F1CC6006A8F1A /* RHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DDDED208F1CC6006A8F1A /* RHRouter.m */; };
 		E74DDDF0208F29D3006A8F1A /* LaunchTour.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E74DDDEF208F29D2006A8F1A /* LaunchTour.mp4 */; };
+		E773C200209065830077C558 /* RHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C1FF209065830077C558 /* RHHomeTabBarController.m */; };
+		E773C2502091A5480077C558 /* RHTab.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C24F2091A5480077C558 /* RHTab.m */; };
+		E773C2542091A5FB0077C558 /* RHHomeBetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C2522091A5FB0077C558 /* RHHomeBetaViewController.m */; };
+		E773C2552091A5FB0077C558 /* RHHomeBetaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C2532091A5FB0077C558 /* RHHomeBetaViewController.xib */; };
+		E773C25B2091A6F30077C558 /* RHMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C2592091A6F30077C558 /* RHMessageCenterViewController.m */; };
+		E773C25C2091A6F30077C558 /* RHMessageCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C25A2091A6F30077C558 /* RHMessageCenterViewController.xib */; };
+		E773C2612091A7220077C558 /* RHMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C25F2091A7220077C558 /* RHMyViewController.m */; };
+		E773C2622091A7220077C558 /* RHMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C2602091A7220077C558 /* RHMyViewController.xib */; };
+		E773C2672091A8E50077C558 /* RHRNStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C2652091A8E50077C558 /* RHRNStoreViewController.m */; };
+		E773C2682091A8E50077C558 /* RHRNStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C2662091A8E50077C558 /* RHRNStoreViewController.xib */; };
+		E773C26C2091A9810077C558 /* RHExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C26A2091A9810077C558 /* RHExploreViewController.m */; };
+		E773C26D2091A9810077C558 /* RHExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C26B2091A9810077C558 /* RHExploreViewController.xib */; };
+		E773C27A2091AA3A0077C558 /* RHMediaProduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C2782091AA3A0077C558 /* RHMediaProduceViewController.m */; };
+		E773C27B2091AA3A0077C558 /* RHMediaProduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C2792091AA3A0077C558 /* RHMediaProduceViewController.xib */; };
+		E773C27F2091AAD00077C558 /* RHPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C27D2091AAD00077C558 /* RHPageViewController.m */; };
+		E773C2802091AAD00077C558 /* RHPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E773C27E2091AAD00077C558 /* RHPageViewController.xib */; };
+		E773C2832091ACC50077C558 /* RHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E773C2822091ACC50077C558 /* RHTabBar.m */; };
+		E7E557162091D1BD00A12EFB /* UIImage+RHHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E557152091D1BD00A12EFB /* UIImage+RHHelp.m */; };
+		E7E5571F2091D95700A12EFB /* RHCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5571B2091D95600A12EFB /* RHCommand.m */; };
+		E7E557202091D95700A12EFB /* RHCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5571C2091D95600A12EFB /* RHCommandManager.m */; };
+		E7E557232091DA8500A12EFB /* RHWeChatLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E557222091DA8500A12EFB /* RHWeChatLoginCommand.m */; };
+		E7E557262091DA9500A12EFB /* RHWeiboLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E557252091DA9500A12EFB /* RHWeiboLoginCommand.m */; };
+		E7E557292091DAA000A12EFB /* RHQQLoginCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E557282091DAA000A12EFB /* RHQQLoginCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +99,45 @@
 		E74DDDEC208F1CC6006A8F1A /* RHRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHRouter.h; sourceTree = "<group>"; };
 		E74DDDED208F1CC6006A8F1A /* RHRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHRouter.m; sourceTree = "<group>"; };
 		E74DDDEF208F29D2006A8F1A /* LaunchTour.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LaunchTour.mp4; sourceTree = "<group>"; };
+		E773C1FE209065830077C558 /* RHHomeTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHHomeTabBarController.h; sourceTree = "<group>"; };
+		E773C1FF209065830077C558 /* RHHomeTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHHomeTabBarController.m; sourceTree = "<group>"; };
+		E773C24E2091A5480077C558 /* RHTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHTab.h; sourceTree = "<group>"; };
+		E773C24F2091A5480077C558 /* RHTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHTab.m; sourceTree = "<group>"; };
+		E773C2512091A5FB0077C558 /* RHHomeBetaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHHomeBetaViewController.h; sourceTree = "<group>"; };
+		E773C2522091A5FB0077C558 /* RHHomeBetaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHHomeBetaViewController.m; sourceTree = "<group>"; };
+		E773C2532091A5FB0077C558 /* RHHomeBetaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHHomeBetaViewController.xib; sourceTree = "<group>"; };
+		E773C2582091A6F30077C558 /* RHMessageCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHMessageCenterViewController.h; sourceTree = "<group>"; };
+		E773C2592091A6F30077C558 /* RHMessageCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHMessageCenterViewController.m; sourceTree = "<group>"; };
+		E773C25A2091A6F30077C558 /* RHMessageCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHMessageCenterViewController.xib; sourceTree = "<group>"; };
+		E773C25E2091A7220077C558 /* RHMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHMyViewController.h; sourceTree = "<group>"; };
+		E773C25F2091A7220077C558 /* RHMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHMyViewController.m; sourceTree = "<group>"; };
+		E773C2602091A7220077C558 /* RHMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHMyViewController.xib; sourceTree = "<group>"; };
+		E773C2642091A8E50077C558 /* RHRNStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHRNStoreViewController.h; sourceTree = "<group>"; };
+		E773C2652091A8E50077C558 /* RHRNStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHRNStoreViewController.m; sourceTree = "<group>"; };
+		E773C2662091A8E50077C558 /* RHRNStoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHRNStoreViewController.xib; sourceTree = "<group>"; };
+		E773C2692091A9810077C558 /* RHExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHExploreViewController.h; sourceTree = "<group>"; };
+		E773C26A2091A9810077C558 /* RHExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHExploreViewController.m; sourceTree = "<group>"; };
+		E773C26B2091A9810077C558 /* RHExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHExploreViewController.xib; sourceTree = "<group>"; };
+		E773C2772091AA3A0077C558 /* RHMediaProduceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHMediaProduceViewController.h; sourceTree = "<group>"; };
+		E773C2782091AA3A0077C558 /* RHMediaProduceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHMediaProduceViewController.m; sourceTree = "<group>"; };
+		E773C2792091AA3A0077C558 /* RHMediaProduceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHMediaProduceViewController.xib; sourceTree = "<group>"; };
+		E773C27C2091AAD00077C558 /* RHPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHPageViewController.h; sourceTree = "<group>"; };
+		E773C27D2091AAD00077C558 /* RHPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHPageViewController.m; sourceTree = "<group>"; };
+		E773C27E2091AAD00077C558 /* RHPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RHPageViewController.xib; sourceTree = "<group>"; };
+		E773C2812091ACC50077C558 /* RHTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHTabBar.h; sourceTree = "<group>"; };
+		E773C2822091ACC50077C558 /* RHTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHTabBar.m; sourceTree = "<group>"; };
+		E7E557142091D1BD00A12EFB /* UIImage+RHHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RHHelp.h"; sourceTree = "<group>"; };
+		E7E557152091D1BD00A12EFB /* UIImage+RHHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RHHelp.m"; sourceTree = "<group>"; };
+		E7E5571B2091D95600A12EFB /* RHCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCommand.m; sourceTree = "<group>"; };
+		E7E5571C2091D95600A12EFB /* RHCommandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCommandManager.m; sourceTree = "<group>"; };
+		E7E5571D2091D95600A12EFB /* RHCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCommandManager.h; sourceTree = "<group>"; };
+		E7E5571E2091D95700A12EFB /* RHCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCommand.h; sourceTree = "<group>"; };
+		E7E557212091DA8500A12EFB /* RHWeChatLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHWeChatLoginCommand.h; sourceTree = "<group>"; };
+		E7E557222091DA8500A12EFB /* RHWeChatLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHWeChatLoginCommand.m; sourceTree = "<group>"; };
+		E7E557242091DA9500A12EFB /* RHWeiboLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHWeiboLoginCommand.h; sourceTree = "<group>"; };
+		E7E557252091DA9500A12EFB /* RHWeiboLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHWeiboLoginCommand.m; sourceTree = "<group>"; };
+		E7E557272091DAA000A12EFB /* RHQQLoginCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHQQLoginCommand.h; sourceTree = "<group>"; };
+		E7E557282091DAA000A12EFB /* RHQQLoginCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHQQLoginCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +244,12 @@
 		E74DDDCF208EDBD2006A8F1A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E773C2562091A6000077C558 /* Tabbar */,
+				E773C2762091AA1D0077C558 /* Media */,
+				E773C2632091A8580077C558 /* Store */,
+				E773C25D2091A7130077C558 /* My */,
+				E773C2572091A6E10077C558 /* Message */,
+				E773C1FD2090654E0077C558 /* Home */,
 				E74DDDD8208EDC77006A8F1A /* Login */,
 			);
 			path = Features;
@@ -190,6 +258,7 @@
 		E74DDDD0208EDC20006A8F1A /* Comom */ = {
 			isa = PBXGroup;
 			children = (
+				E7E5571A2091D92D00A12EFB /* Command */,
 				E74DDDEB208F1CAE006A8F1A /* Universal */,
 				E74DDDEA208F141B006A8F1A /* common.h */,
 				E74DDDE4208F0A5F006A8F1A /* Categories */,
@@ -229,6 +298,8 @@
 			children = (
 				E74DDDE5208F0AC8006A8F1A /* UIView+RHHelp.h */,
 				E74DDDE6208F0AC8006A8F1A /* UIView+RHHelp.m */,
+				E7E557142091D1BD00A12EFB /* UIImage+RHHelp.h */,
+				E7E557152091D1BD00A12EFB /* UIImage+RHHelp.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -253,6 +324,92 @@
 				E74DDDAB208ED607006A8F1A /* main.m */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		E773C1FD2090654E0077C558 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E773C2512091A5FB0077C558 /* RHHomeBetaViewController.h */,
+				E773C2522091A5FB0077C558 /* RHHomeBetaViewController.m */,
+				E773C2532091A5FB0077C558 /* RHHomeBetaViewController.xib */,
+				E773C2692091A9810077C558 /* RHExploreViewController.h */,
+				E773C26A2091A9810077C558 /* RHExploreViewController.m */,
+				E773C26B2091A9810077C558 /* RHExploreViewController.xib */,
+				E773C27C2091AAD00077C558 /* RHPageViewController.h */,
+				E773C27D2091AAD00077C558 /* RHPageViewController.m */,
+				E773C27E2091AAD00077C558 /* RHPageViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E773C2562091A6000077C558 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E773C1FE209065830077C558 /* RHHomeTabBarController.h */,
+				E773C1FF209065830077C558 /* RHHomeTabBarController.m */,
+				E773C2812091ACC50077C558 /* RHTabBar.h */,
+				E773C2822091ACC50077C558 /* RHTabBar.m */,
+				E773C24E2091A5480077C558 /* RHTab.h */,
+				E773C24F2091A5480077C558 /* RHTab.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E773C2572091A6E10077C558 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E773C2582091A6F30077C558 /* RHMessageCenterViewController.h */,
+				E773C2592091A6F30077C558 /* RHMessageCenterViewController.m */,
+				E773C25A2091A6F30077C558 /* RHMessageCenterViewController.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E773C25D2091A7130077C558 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				E773C25E2091A7220077C558 /* RHMyViewController.h */,
+				E773C25F2091A7220077C558 /* RHMyViewController.m */,
+				E773C2602091A7220077C558 /* RHMyViewController.xib */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		E773C2632091A8580077C558 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				E773C2642091A8E50077C558 /* RHRNStoreViewController.h */,
+				E773C2652091A8E50077C558 /* RHRNStoreViewController.m */,
+				E773C2662091A8E50077C558 /* RHRNStoreViewController.xib */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		E773C2762091AA1D0077C558 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				E773C2772091AA3A0077C558 /* RHMediaProduceViewController.h */,
+				E773C2782091AA3A0077C558 /* RHMediaProduceViewController.m */,
+				E773C2792091AA3A0077C558 /* RHMediaProduceViewController.xib */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		E7E5571A2091D92D00A12EFB /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5571E2091D95700A12EFB /* RHCommand.h */,
+				E7E5571B2091D95600A12EFB /* RHCommand.m */,
+				E7E5571D2091D95600A12EFB /* RHCommandManager.h */,
+				E7E5571C2091D95600A12EFB /* RHCommandManager.m */,
+				E7E557212091DA8500A12EFB /* RHWeChatLoginCommand.h */,
+				E7E557222091DA8500A12EFB /* RHWeChatLoginCommand.m */,
+				E7E557242091DA9500A12EFB /* RHWeiboLoginCommand.h */,
+				E7E557252091DA9500A12EFB /* RHWeiboLoginCommand.m */,
+				E7E557272091DAA000A12EFB /* RHQQLoginCommand.h */,
+				E7E557282091DAA000A12EFB /* RHQQLoginCommand.m */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,8 +520,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E773C26D2091A9810077C558 /* RHExploreViewController.xib in Resources */,
+				E773C27B2091AA3A0077C558 /* RHMediaProduceViewController.xib in Resources */,
+				E773C2802091AAD00077C558 /* RHPageViewController.xib in Resources */,
+				E773C2622091A7220077C558 /* RHMyViewController.xib in Resources */,
 				E74DDDA9208ED607006A8F1A /* LaunchScreen.storyboard in Resources */,
+				E773C2682091A8E50077C558 /* RHRNStoreViewController.xib in Resources */,
+				E773C25C2091A6F30077C558 /* RHMessageCenterViewController.xib in Resources */,
 				E74DDDDD208EDD50006A8F1A /* RHTourLaunchViewController.xib in Resources */,
+				E773C2552091A5FB0077C558 /* RHHomeBetaViewController.xib in Resources */,
 				E74DDDF0208F29D3006A8F1A /* LaunchTour.mp4 in Resources */,
 				E74DDDA6208ED607006A8F1A /* Assets.xcassets in Resources */,
 			);
@@ -395,10 +559,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RHDiscover/Pods-RHDiscover-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenShare/OpenShare.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenShare.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,15 +596,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E773C200209065830077C558 /* RHHomeTabBarController.m in Sources */,
 				E74DDDD4208EDC43006A8F1A /* RHBaseViewController.m in Sources */,
 				E74DDDAC208ED607006A8F1A /* main.m in Sources */,
 				E74DDDE7208F0AC8006A8F1A /* UIView+RHHelp.m in Sources */,
+				E7E5571F2091D95700A12EFB /* RHCommand.m in Sources */,
+				E773C27A2091AA3A0077C558 /* RHMediaProduceViewController.m in Sources */,
 				E74DDDEE208F1CC6006A8F1A /* RHRouter.m in Sources */,
+				E7E557232091DA8500A12EFB /* RHWeChatLoginCommand.m in Sources */,
+				E7E557262091DA9500A12EFB /* RHWeiboLoginCommand.m in Sources */,
+				E773C2542091A5FB0077C558 /* RHHomeBetaViewController.m in Sources */,
+				E773C27F2091AAD00077C558 /* RHPageViewController.m in Sources */,
+				E7E557202091D95700A12EFB /* RHCommandManager.m in Sources */,
 				E74DDDE3208F098C006A8F1A /* RHThirdPartyLoginView.m in Sources */,
 				E74DDDE0208EDFB6006A8F1A /* RHPlayerView.m in Sources */,
 				E74DDDD7208EDC64006A8F1A /* RHBaseNavigationController.m in Sources */,
+				E773C2502091A5480077C558 /* RHTab.m in Sources */,
+				E773C26C2091A9810077C558 /* RHExploreViewController.m in Sources */,
+				E773C2672091A8E50077C558 /* RHRNStoreViewController.m in Sources */,
+				E7E557162091D1BD00A12EFB /* UIImage+RHHelp.m in Sources */,
 				E74DDD9E208ED607006A8F1A /* AppDelegate.m in Sources */,
+				E773C25B2091A6F30077C558 /* RHMessageCenterViewController.m in Sources */,
+				E773C2612091A7220077C558 /* RHMyViewController.m in Sources */,
 				E74DDDDC208EDD50006A8F1A /* RHTourLaunchViewController.m in Sources */,
+				E7E557292091DAA000A12EFB /* RHQQLoginCommand.m in Sources */,
+				E773C2832091ACC50077C558 /* RHTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,9 +778,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U548S69Z84;
-				INFOPLIST_FILE = RHDiscover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RHDiscover/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscover;
+				PRODUCT_BUNDLE_IDENTIFIER = us.gfzj.openshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -611,9 +794,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U548S69Z84;
-				INFOPLIST_FILE = RHDiscover/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RHDiscover/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hmy.RHDiscover;
+				PRODUCT_BUNDLE_IDENTIFIER = us.gfzj.openshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

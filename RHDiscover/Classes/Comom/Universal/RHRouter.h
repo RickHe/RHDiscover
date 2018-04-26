@@ -11,5 +11,6 @@
 @interface RHRouter : NSObject
 
 + (void)switchToTourLaunchViewController;
++ (void)switchToMainTabBarViewController;
 
 @end

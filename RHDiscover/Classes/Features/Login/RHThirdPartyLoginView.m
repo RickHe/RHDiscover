@@ -9,11 +9,17 @@
 #import "RHThirdPartyLoginView.h"
 #import <Masonry/Masonry.h>
 #import "common.h"
+#import <OpenShare/OpenShareHeader.h>
+#import "RHRouter.h"
 
 #define kButtonHeight 16
 #define kButtonNormalWidth 80
 #define kButtonFacebookWith 126
 #define kImageEdgeInset UIEdgeInsetsMake(0, 0, 0, 8)
+
+#define FT_WEIBO_APPKEY         @"2645776991"
+#define FT_WEIBO_APPSECRET      @"785818577abc810dfac71fa7c59d1957"
+#define FT_WEIBO_CALLBACK_URL   @"http://sns.whalecloud.com/sina2/callback"
 
 typedef NS_ENUM(NSUInteger, kLoginButtonType) {
     kLoginButtonTypeWechat = 1,
@@ -88,14 +94,33 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
     return btn;
 }
 
+- (void)loginSuccess:(NSDictionary *)message {
+    // save somemessage
+    [RHRouter switchToMainTabBarViewController];
+}
+
+- (void)loginFailed:(NSDictionary *)message {
+    // show error
+}
+
 - (void)buttonAction:(UIButton *)btn {
+    NSString *auth = @"get_user_info";
     switch (btn.tag) {
         case kLoginButtonTypeWechat: {
-            
+            auth = @"snsapi_userinfo";
+            [OpenShare WeixinAuth:auth Success:^(NSDictionary *message) {
+                [self loginSuccess:message];
+            } Fail:^(NSDictionary *message, NSError *error) {
+                [self loginFailed:message];
+            }];
             break;
         }
         case kLoginButtonTypeQQ: {
-            
+            [OpenShare QQAuth:auth Success:^(NSDictionary *message) {
+                [self loginSuccess:message];
+            } Fail:^(NSDictionary *message, NSError *error) {
+                [self loginFailed:message];
+            }];
             break;
         }
         case kLoginButtonTypeMore: {
@@ -103,7 +128,11 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
             break;
         }
         case kLoginButtonTypeWeibo: {
-            
+            [OpenShare WeiboAuth:@"all" redirectURI:FT_WEIBO_CALLBACK_URL Success:^(NSDictionary *message) {
+                [self loginSuccess:message];
+            } Fail:^(NSDictionary *message, NSError *error) {
+                [self loginFailed:message];
+            }];
             break;
         }
         case kLoginButtonTypeFacebook: {
@@ -113,6 +142,7 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
         default:
             break;
     }
+    
 }
 
 - (void)setIsShowAllLoginButton:(BOOL)isShowAllLoginButton {
@@ -126,7 +156,7 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
     }
     
     UIButton *wechatButton = [self viewWithTag:kLoginButtonTypeWechat];
-    [wechatButton mas_makeConstraints:^(MASConstraintMaker *make) {
+    [wechatButton mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.mas_left).offset(buttonInterSpacing);
         make.width.mas_equalTo(kButtonNormalWidth);
         make.centerY.equalTo(self);
@@ -134,7 +164,7 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
     }];
     
     UIButton *qqButton = [self viewWithTag:kLoginButtonTypeQQ];
-    [qqButton mas_makeConstraints:^(MASConstraintMaker *make) {
+    [qqButton mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(wechatButton.mas_right).offset(buttonInterSpacing);
         make.width.mas_equalTo(kButtonNormalWidth);
         make.centerY.equalTo(self);
@@ -166,21 +196,21 @@ typedef NS_ENUM(NSUInteger, kLoginButtonType) {
         }];
     } else {
         UIButton *moreButton = [self viewWithTag:kLoginButtonTypeMore];
-        [moreButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        [moreButton mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(qqButton.mas_right).offset(buttonInterSpacing);
             make.width.mas_equalTo(kButtonNormalWidth);
             make.centerY.equalTo(self);
             make.height.mas_equalTo(kButtonHeight);
         }];
         
-        [[self viewWithTag:kLoginButtonTypeWeibo] mas_makeConstraints:^(MASConstraintMaker *make) {
+        [[self viewWithTag:kLoginButtonTypeWeibo] mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.width.mas_equalTo(0);
             make.height.mas_equalTo(0);
             make.left.equalTo(moreButton.mas_right).offset(buttonInterSpacing);
             make.centerY.equalTo(self);
         }];
         
-        [[self viewWithTag:kLoginButtonTypeFacebook] mas_makeConstraints:^(MASConstraintMaker *make) {
+        [[self viewWithTag:kLoginButtonTypeFacebook] mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.width.mas_equalTo(0);
             make.height.mas_equalTo(0);
             make.left.equalTo(moreButton.mas_right).offset(buttonInterSpacing);

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RHRouter.h"
+#import <OpenShare/OpenShareHeader.h>
 
 @interface AppDelegate ()
 
@@ -20,14 +21,30 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     [self launchApp];
-
+    [self registThirdPartyLogin];
+    
     return YES;
 }
 
--(void)launchApp{
+- (void)launchApp{
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [RHRouter switchToTourLaunchViewController];
+}
+
+- (void)registThirdPartyLogin {
+    [OpenShare connectQQWithAppId:@"1103194207"];
+    [OpenShare connectWeiboWithAppKey:@"402180334"];
+    [OpenShare connectWeixinWithAppId:@"wxd930ea5d5a258f4f"];
+    [OpenShare connectRenrenWithAppId:@"228525" AndAppKey:@"1dd8cba4215d4d4ab96a49d3058c1d7f"];
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    if ([OpenShare handleOpenURL:url]) {
+        return YES;
+    }
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

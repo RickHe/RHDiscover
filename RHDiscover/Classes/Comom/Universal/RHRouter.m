@@ -9,6 +9,7 @@
 #import "RHRouter.h"
 #import "RHTourLaunchViewController.h"
 #import "AppDelegate.h"
+#import "RHHomeTabBarController.h"
 
 @implementation RHRouter
 
@@ -19,7 +20,7 @@
     [RHRouter showViewController:tourLaunchVC];
 }
 
-+(void)showViewController:(UIViewController*)controller{
++ (void)showViewController:(UIViewController*)controller{
     AppDelegate *appDelegate =  (AppDelegate*)[[UIApplication sharedApplication] delegate];
     appDelegate.window.rootViewController = controller;
     appDelegate.window.backgroundColor = [UIColor whiteColor];
@@ -27,6 +28,13 @@
     if (![appDelegate.window isKeyWindow]) {
         [appDelegate.window makeKeyAndVisible];
     }
+}
+
++ (void)switchToMainTabBarViewController {
+    AppDelegate *appDelegate =  (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    appDelegate.window.rootViewController = nil;
+    RHHomeTabBarController *homeTabBarVC = [[RHHomeTabBarController alloc]init];
+    [RHRouter showViewController:homeTabBarVC];
 }
 
 @end
